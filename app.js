@@ -2,6 +2,8 @@
 // console.log(element);//This will console object as create element creates an object 
 // const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(element);// this will render the elment to the root and also change the object to browser understandable html element
+import React from "react";
+import ReactDOM from "react-dom/client"
 
 const parent= React.createElement("div",{id:"parent"},
 [React.createElement("div",{id:"child1"},

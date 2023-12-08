@@ -1,0 +1,4 @@
+//to ignore the files not to be uploadeed in github
+/node_modules
+/dist
+.parcel-cache
